@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#street-view {
+  height: 100%;
+}
+
+.form input{
+  width: 30%;
+  border: none;
+  padding: 20px;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 5px;
+  background: #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ;
+-moz-transition: all 0.5s ;
+-ms-transition: all 0.5s ;
+-o-transition: all 0.5s ;
+transition: all 0.5s ;
+}
+.form input:focus{
+  background: #aaa;
+}
+.form .form__btn{
+  color: #fff;
+  background: rgb(63, 192, 46);
+}
+
+#map{
+  width: 500px;
+  height: 500px;
+}
